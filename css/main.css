@@ -737,7 +737,8 @@ a:hover {
 .cvitae-about-me .content-left {
     border: 1px solid #f2f2f2;
     padding: 20px 30px;
-    vertical-align: top
+    vertical-align: top;
+    text-align: center;
 }
 
 .cvitae-about-me .short-bio .pic {
@@ -747,7 +748,8 @@ a:hover {
     background-image: url('../img/slider/7-image.png');
     background-repeat: none;
     background-size: 340px auto;
-    background-position: 0 -100px;
+    background-position: 0 -75px;
+    margin: 0 auto;
 }
 
 .cvitae-about-me .short-bio p {
@@ -6037,7 +6039,8 @@ a:hover {
         padding: 50px
     }
     .cvitae-about-me .content-left .pic {
-        margin: 0;
+        margin: 0 auto;
+        display: none;
         
     }
     .cvitae-about-me .content-left .pic img {
