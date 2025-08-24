@@ -1,6 +1,6 @@
 const n=`# This Code Review Comment Made Me Quit, And I'd Write It Again
 
-**Bài viết gốc:** [This Code Review Comment Made Me Quit, And I'd Write It Again](https://medium.com/@tsecretdeveloper/this-code-review-comment-made-me-quit-and-id-write-it-again-a5b2e0ecb0bb)
+**Bài viết gốc:** [This Code Review Comment Made Me Quit, And I'd Write It Again](https://medium.com/@ThreadSafeDiaries/this-code-review-comment-made-me-quit-and-id-write-it-again-a5cf9afd3aca)
 
 **Lưu ý: Bài viết này được dịch với sự hỗ trợ từ AI.**
 
