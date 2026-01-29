@@ -8,6 +8,8 @@ const n=`# This Code Review Comment Made Me Quit, And I'd Write It Again
 
 Ba tháng trước, tôi đã đăng một bình luận rà soát mã mà tôi nghĩ là bình thường trên một pull request. Hôm nay, tôi đã rời khỏi startup độc hại đó, từ chối những lời đề nghị giữ chân đầy tuyệt vọng của họ, và hiện đang phát triển tại một công ty thực sự coi trọng sự xuất sắc về kỹ thuật. Nhưng điều quan trọng là: ngày mai tôi vẫn sẽ viết lại chính xác bình luận đó.
 
+![](https://miro.medium.com/v2/resize:fit:700/0*C2vwG_UgpJGlYmvc.jpg)
+
 ## The Comment That Changed Everything
 
 > The pull request was innocent enough. A senior developer had submitted code for a critical payment processing module that would handle millions of dollars in transactions daily. The implementation looked clean on the surface, but buried deep in the logic was a race condition that could lead to duplicate payments under high load.
@@ -46,7 +48,6 @@ Chỉ trong vòng một giờ, tôi nhận được tin nhắn Slack từ lập 
 
 ## When Code Review Culture Goes Wrong
 
-
 > Our engineering culture prided itself on "ego-free code reviews." In theory, everyone was supposed to check their pride at the door and focus on shipping quality code. In practice, there was an unspoken hierarchy where junior developers were expected to defer to senior colleagues, especially those with close relationships to management.
 
 Văn hóa kỹ thuật của chúng tôi tự hào về các “code review không cái tôi” (ego-free code reviews). Về lý thuyết, mọi người đều phải bỏ cái tôi của mình ở ngoài và tập trung vào việc xuất xưởng mã chất lượng. Nhưng trên thực tế, tồn tại một hệ thống thứ bậc ngầm, nơi các lập trình viên ít kinh nghiệm hơn được kỳ vọng phải nhường nhịn các đồng nghiệp cấp cao — đặc biệt là những người có mối quan hệ thân thiết với ban lãnh đạo.
@@ -64,7 +65,6 @@ Nhìn lại, chủ nghĩa thân hữu (nepotism) lẽ ra phải thấy rõ. Như
 Tôi đã quyết tâm hơn. Tôi tạo một bản tái hiện tối giản của điều kiện tranh chấp, triển khai nó lên môi trường staging, và chứng minh chính xác cách lỗi này sẽ xuất hiện trong môi trường production. Kết quả thử nghiệm là không thể chối cãi: khi tải cao, đoạn mã sẽ thất bại một cách ngoạn mục.
 
 ## The Final Straw
-
 
 > Here's where the situation went from uncomfortable to career-ending. During our next sprint retrospective, I mentioned that our code review process needed improvement. I suggested that all pull requests, regardless of the author's seniority, should meet the same technical standards.
 
@@ -155,7 +155,6 @@ Bình luận khởi đầu mọi chuyện chỉ vỏn vẹn tám chữ: “Cần
 > Sometimes doing your job well means being willing to lose your job. In an industry where our code affects millions of users and handles billions of dollars in transactions, that's not just professional responsibility, it's ethical obligation.
 
 Đôi khi, làm tốt công việc nghĩa là sẵn sàng đánh đổi công việc. Trong một ngành mà mã của chúng ta ảnh hưởng đến hàng triệu người dùng và xử lý hàng tỷ đô la giao dịch, đó không chỉ là trách nhiệm nghề nghiệp — mà còn là nghĩa vụ đạo đức.
-
 
 > Code doesn't care about your feelings. Neither should code reviews.
 
